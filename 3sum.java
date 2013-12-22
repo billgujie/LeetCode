@@ -1,4 +1,6 @@
 public class Solution {
+	//use a general version of twosum to solve 3sum problem
+	//pick any number from list, and put the rest into a 2sum function
     public ArrayList<ArrayList<Integer>> threeSum(int[] num) {
     ArrayList<ArrayList<Integer>> result = new ArrayList<ArrayList<Integer>>();
 		//int[] num = { -1, 0, 1, 2, -1, -4, -3 };
